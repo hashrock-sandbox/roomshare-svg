@@ -7,8 +7,6 @@
         </symbol>
       </defs>
       <use x="0" y="0" xlink:href="#chip" />
-      <use x="16" y="0" xlink:href="#chip" />
-      <use x="0" y="16" xlink:href="#chip" />
     </svg>
   </div>
 </template>
@@ -27,7 +25,6 @@ export default {
 <style>
 svg {
   background: white;
-  -ms-interpolation-mode: nearest-neighbor;
   image-rendering: pixelated;
   width: 640px;
   height: 480px;
